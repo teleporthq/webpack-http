@@ -1,0 +1,123 @@
+import { variant } from "styled-system";
+export const TOKENS = {
+    DlRadiusRadiusRadius2: "2px",
+    DlSizeSizeLarge: "144px",
+    DlSizeSizeMedium: "96px",
+    DlColorDanger300: "#A22020",
+    DlColorDanger500: "#BF2626",
+    DlSizeSizeMaxwidth: "1400px",
+    DlColorSuccess300: "#199033",
+    DlColorGrayWhite: "#FFFFFF",
+    DlColorPrimary100: "#003EB3",
+    DlColorPrimary700: "#85DCFF",
+    DlRadiusRadiusRound: "50%",
+    DlColorGray500: "#595959",
+    DlSpaceSpaceFourunits: "64px",
+    DlRadiusRadiusRadius4: "4px",
+    DlColorPrimary300: "#0074F0",
+    DlSizeSizeXxlarge: "288px",
+    DlColorGray900: "#D9D9D9",
+    DlColorSuccess500: "#32A94C",
+    DlColorGrayBlack: "#000000",
+    DlSpaceSpaceSixunits: "96px",
+    DlSpaceSpaceTwounits: "32px",
+    DlSpaceSpaceHalfunit: "8px",
+    DlSizeSizeXlarge: "192px",
+    DlSpaceSpaceUnit: "16px",
+    DlSpaceSpaceFiveunits: "80px",
+    DlSizeSizeSmall: "48px",
+    DlSpaceSpaceOneandhalfunits: "24px",
+    DlColorSuccess700: "#4CC366",
+    DlColorGray700: "#999999",
+    DlSpaceSpaceThreeunits: "48px",
+    DlColorPrimary500: "#14A9FF",
+    DlRadiusRadiusRadius8: "8px",
+    DlSizeSizeXsmall: "16px",
+    DlColorDanger700: "#E14747"
+};
+export const projectStyleVariants = variant({
+    prop: "projVariant",
+    variants: {
+        "button": {
+            "color": TOKENS.DlColorGrayBlack,
+            "display": "inline-block",
+            "padding": "0.5rem 1rem",
+            "border-color": TOKENS.DlColorGrayBlack,
+            "border-width": "1px",
+            "border-radius": "4px",
+            "background-color": TOKENS.DlColorGrayWhite
+        },
+        "input": {
+            "color": TOKENS.DlColorGrayBlack,
+            "cursor": "auto",
+            "padding": "0.5rem 1rem",
+            "border-color": TOKENS.DlColorGrayBlack,
+            "border-width": "1px",
+            "border-radius": "4px",
+            "background-color": TOKENS.DlColorGrayWhite
+        },
+        "textarea": {
+            "color": TOKENS.DlColorGrayBlack,
+            "cursor": "auto",
+            "padding": "0.5rem",
+            "border-color": TOKENS.DlColorGrayBlack,
+            "border-width": "1px",
+            "border-radius": "4px",
+            "background-color": TOKENS.DlColorGrayWhite
+        },
+        "teleport-menu-burger": {
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center"
+        },
+        "teleport-menu-mobile": {
+            "top": "0px",
+            "left": "0px",
+            "width": "100%",
+            "height": "100vh",
+            "z-index": "100",
+            "display": "none",
+            "padding": "32px",
+            "position": "absolute",
+            "flex-direction": "column",
+            "justify-content": "space-between",
+            "background-color": "#fff"
+        },
+        "teleport-menu-close": {
+            "display": "flex",
+            "align-items": "center",
+            "justify-content": "center"
+        },
+        "teleport-show": {
+            "display": "flex !important"
+        },
+        "heading": {
+            "font-size": "32px",
+            "font-family": "Inter",
+            "font-weight": "700",
+            "line-height": "1.15",
+            "text-transform": "none",
+            "text-decoration": "none"
+        },
+        "content": {
+            "font-size": "16px",
+            "font-family": "Inter",
+            "font-weight": "400",
+            "line-height": "1.15",
+            "text-transform": "none",
+            "text-decoration": "none"
+        },
+        "default-style": {
+            "font-size": "16px",
+            "font-family": "Inter",
+            "font-weight": "400",
+            "line-height": "1.15",
+            "text-transform": "none",
+            "text-decoration": "none",
+            "background": TOKENS.DlColorGrayWhite,
+            "color": TOKENS.DlColorGrayBlack
+        }
+    }
+});
+
+ //# sourceMappingURL=./style.map@2f63e825614b6b7ebe25a463c41796231507fbe1

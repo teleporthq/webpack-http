@@ -1,0 +1,6 @@
+{
+  "https://jscdn.teleporthq.io/new-project-68d4/card.js@dae863b755af58ff41f9ccce767abf6fa9409585": { "integrity": "sha512-JF05GbqqzKmVAWf/axrac7mIZIlIWwe5/zc+fRdwHRwt1wOT7fsEWtoCjIHomPGiUwDVEXxuO5Ijh0W6/x0Wvw==", "contentType": "application/javascript" },
+  "https://jscdn.teleporthq.io/new-project-68d4/globals.js@646826692c3ac0769586600c4719b2024c8a399a": { "integrity": "sha512-j80sjBt9xzuwEmO12t+3BYTwc9Y4Disi/V69LiHbVvXUsVldMbJwIPGUPVh0cF34ZYc7axb0BQr/zJvv8r9qPg==", "contentType": "application/javascript" },
+  "https://jscdn.teleporthq.io/new-project-68d4/style.js@2f63e825614b6b7ebe25a463c41796231507fbe1": { "integrity": "sha512-btB2SjSEw6cy9xfl7yjts7Kiv/42ndqxtazvOTabVKhEt2PzqFZ2jjB80OQvMwrM8ZNhu+9ZXsXIQ6zl3joMgA==", "contentType": "application/javascript" },
+  "version": 1
+}

@@ -1,0 +1,142 @@
+import React from 'react';
+import Globals from 'https://jscdn.teleporthq.io/new-project-68d4/globals.js@646826692c3ac0769586600c4719b2024c8a399a';
+import styled from 'styled-components';
+import { projectStyleVariants, TOKENS } from 'https://jscdn.teleporthq.io/new-project-68d4/style.js@2f63e825614b6b7ebe25a463c41796231507fbe1';
+const Card = ()=>{
+    return(/*#__PURE__*/ React.createElement(Container, {
+        projVariant: "default-style"
+    }, /*#__PURE__*/ React.createElement(Globals, null), /*#__PURE__*/ React.createElement(Hero, null, /*#__PURE__*/ React.createElement(Container1, null, /*#__PURE__*/ React.createElement(Text, null, "Magnificent things are very simple"), /*#__PURE__*/ React.createElement(Text1, null, /*#__PURE__*/ React.createElement("span", null, /*#__PURE__*/ React.createElement("span", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis.", /*#__PURE__*/ React.createElement("span", {
+        dangerouslySetInnerHTML: {
+            __html: ' '
+        }
+    })), /*#__PURE__*/ React.createElement("span", null, /*#__PURE__*/ React.createElement("span", {
+        dangerouslySetInnerHTML: {
+            __html: ' '
+        }
+    }))), /*#__PURE__*/ React.createElement("span", null, /*#__PURE__*/ React.createElement("span", null, "Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.", /*#__PURE__*/ React.createElement("span", {
+        dangerouslySetInnerHTML: {
+            __html: ' '
+        }
+    })), /*#__PURE__*/ React.createElement("span", null, /*#__PURE__*/ React.createElement("span", {
+        dangerouslySetInnerHTML: {
+            __html: ' '
+        }
+    })))), /*#__PURE__*/ React.createElement(BtnGroup, null, /*#__PURE__*/ React.createElement(Button, {
+        projVariant: "button"
+    }, "Get Started"), /*#__PURE__*/ React.createElement(Button1, {
+        projVariant: "button"
+    }, "Learn More"))), /*#__PURE__*/ React.createElement(Image, {
+        alt: "image",
+        src: "https://jscdn.teleporthq.io/new-project-68d4/assets/cfedf6c1-51b7-4071-831e-ccc00c77f741.jpeg"
+    }))));
+};
+export default Card;
+const Container = styled('div')(projectStyleVariants, {
+    width: '100%',
+    display: 'flex',
+    position: 'relative',
+    'align-items': 'flex-start',
+    'flex-direction': 'column'
+});
+const Hero = styled('div')({
+    width: '100%',
+    display: 'flex',
+    padding: TOKENS.DlSpaceSpaceThreeunits,
+    'max-width': TOKENS.DlSizeSizeMaxwidth,
+    'min-height': '80vh',
+    'align-items': 'center',
+    'flex-direction': 'row',
+    'justify-content': 'space-between',
+    '@media(max-width: 991px)': {
+        'flex-direction': 'column'
+    },
+    '@media(max-width: 767px)': {
+        'padding-left': TOKENS.DlSpaceSpaceTwounits,
+        'padding-right': TOKENS.DlSpaceSpaceTwounits
+    },
+    '@media(max-width: 479px)': {
+        'padding-top': TOKENS.DlSpaceSpaceTwounits,
+        'padding-left': TOKENS.DlSpaceSpaceUnit,
+        'padding-right': TOKENS.DlSpaceSpaceUnit,
+        'padding-bottom': TOKENS.DlSpaceSpaceTwounits
+    }
+});
+const Container1 = styled('div')({
+    display: 'flex',
+    'margin-right': TOKENS.DlSpaceSpaceThreeunits,
+    'padding-right': TOKENS.DlSpaceSpaceThreeunits,
+    'flex-direction': 'column',
+    '@media(max-width: 991px)': {
+        'align-items': 'center',
+        'margin-right': '0px',
+        'margin-bottom': TOKENS.DlSpaceSpaceTwounits,
+        'padding-right': '0px'
+    },
+    '@media(max-width: 479px)': {
+        'margin-bottom': TOKENS.DlSpaceSpaceUnit
+    }
+});
+const Text = styled('h1')({
+    'font-size': '3rem',
+    'max-width': '450px',
+    '@media(max-width: 991px)': {
+        'text-align': 'center'
+    }
+});
+const Text1 = styled('span')({
+    'margin-top': TOKENS.DlSpaceSpaceTwounits,
+    'margin-bottom': TOKENS.DlSpaceSpaceTwounits,
+    '@media(max-width: 991px)': {
+        'text-align': 'center',
+        'padding-left': TOKENS.DlSpaceSpaceThreeunits,
+        'padding-right': TOKENS.DlSpaceSpaceThreeunits
+    },
+    '@media(max-width: 767px)': {
+        'padding-left': TOKENS.DlSpaceSpaceUnit,
+        'padding-right': TOKENS.DlSpaceSpaceUnit
+    }
+});
+const BtnGroup = styled('div')({
+    display: 'flex',
+    'align-items': 'center',
+    'flex-direction': 'row',
+    '@media(max-width: 479px)': {
+        'flex-direction': 'column'
+    }
+});
+const Button = styled('button')(projectStyleVariants, {
+    'padding-top': TOKENS.DlSpaceSpaceUnit,
+    transition: '0.3s',
+    'padding-left': TOKENS.DlSpaceSpaceTwounits,
+    'padding-right': TOKENS.DlSpaceSpaceTwounits,
+    'padding-bottom': TOKENS.DlSpaceSpaceUnit,
+    '&:hover': {
+        color: TOKENS.DlColorGrayWhite,
+        'background-color': TOKENS.DlColorGrayBlack
+    }
+});
+const Button1 = styled('button')(projectStyleVariants, {
+    'margin-left': TOKENS.DlSpaceSpaceUnit,
+    'padding-top': TOKENS.DlSpaceSpaceUnit,
+    transition: '0.3s',
+    'border-color': 'transparent',
+    'padding-left': TOKENS.DlSpaceSpaceTwounits,
+    'padding-right': TOKENS.DlSpaceSpaceTwounits,
+    'padding-bottom': TOKENS.DlSpaceSpaceUnit,
+    '@media(max-width: 479px)': {
+        'margin-top': TOKENS.DlSpaceSpaceUnit,
+        'margin-left': '0px'
+    },
+    '&:hover': {
+        'border-color': TOKENS.DlColorGrayBlack
+    }
+});
+const Image = styled('img')({
+    width: '400px',
+    'object-fit': 'cover',
+    '@media(max-width: 767px)': {
+        width: '80%'
+    }
+});
+
+ //# sourceMappingURL=./card.map@dae863b755af58ff41f9ccce767abf6fa9409585
